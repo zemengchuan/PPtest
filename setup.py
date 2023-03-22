@@ -1,24 +1,22 @@
 import setuptools
 
-with open("README.md", "r",encoding='utf-8') as f:
+with open("README.md", "r", encoding='utf-8') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="PPtest",
-    version='0.0.1',
+    name="testforPPshare",
+    version='0.1.2',
     author="zemengchuan",
     author_email="zemengchuan@gmail.com",
     license="MIT",
-    description="PPtest is a utility for crawling historical and Real-time Quotes data of marco data",
+    description=
+    "PPtest is a utility for crawling historical and Real-time Quotes data of marco data",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zemengchuan/CnkiSpider",
+    url="https://github.com/zemengchuan/PPtest",
     packages=setuptools.find_packages(),
-    install_requires=[
-        "requests",
-        "pandas",
-    ],
-    keywords=["CNKI", "webcrawler", "data", "lxml"],
+    install_requires=["requests", "pandas", "openpyxl"],
+    keywords=["macro", "webcrawler", "data"],
     package_data={"": ["*.py"]},
     classifiers=[
         "Programming Language :: Python :: 3.7",
