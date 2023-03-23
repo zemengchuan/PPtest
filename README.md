@@ -443,18 +443,9 @@ import testforPPshare as tp
 
 China_CPI_monthly_df = tp.China_CPI_monthly()
 print(China_CPI_monthly_df)
-print(China_CPI_monthly_df.name)
 ```
 
 数据示例
-
-China_CPI_monthly_df.name:
-
-```
-CPI
-```
-
-China_CPI_monthly_df:
 
 ```
 1996-02-01     2.1
@@ -498,18 +489,9 @@ import testforPPshare as tp
 
 China_PPI_yearly_df = tp.China_PPI_yearly()
 print(China_PPI_yearly_df)
-print(China_PPI_yearly_df.name)
 ```
 
 数据示例
-
-China_PPI_yearly_df.name:
-
-```
-PPI
-```
-
-China_PPI_yearly_df:
 
 ```
 1995-08-01    13.5
@@ -554,19 +536,10 @@ China_PPI_yearly_df:
 import testforPPshare as tp
 
 China_exports_yoy_df = tp.China_exports_yoy()
-print(China_exports_yoy_df)
-print(China_exports_yoy_df.name)
+print(China_exports_yoy_df))
 ```
 
 数据示例
-
-China_exports_yoy_df.name:
-
-```
-china_exports_yoy
-```
-
-China_exports_yoy_df:
 
 ```
 1982-02-01      8.7
@@ -615,18 +588,9 @@ import testforPPshare as tp
 
 China_imports_yoy_df = tp.China_imports_yoy()
 print(China_imports_yoy_df)
-print(China_imports_yoy_df.name)
 ```
 
 数据示例
-
-China_imports_yoy_df.name:
-
-```
-china_imports_yoy
-```
-
-China_imports_yoy_df:
 
 ```
 1996-02-01    55.8
@@ -672,18 +636,9 @@ import testforPPshare as tp
 
 China_trade_balance_df = tp.China_trade_balance()
 print(China_trade_balance_df)
-print(China_trade_balance_df.name)
 ```
 
 数据示例
-
-China_trade_balance_df.name:
-
-```
-china_trade_balance
-```
-
-China_trade_balance_df:
 
 ```
 1981-02-01     -2.2
@@ -775,18 +730,9 @@ import testforPPshare as tp
 
 China_industrial_production_yoy_df = tp.China_industrial_production_yoy()
 print(China_industrial_production_yoy_df)
-print(China_industrial_production_yoy_df.name)
 ```
 
 数据示例
-
-China_industrial_production_yoy_df.name:
-
-```
-china_industrial_production_yoy
-```
-
-China_industrial_production_yoy_df:
 
 ```
 1990-03-01      5
@@ -830,18 +776,9 @@ import testforPPshare as tp
 
 China_pmi_yearly_df = tp.China_pmi_yearly()
 print(China_pmi_yearly_df)
-print(China_pmi_yearly_df.name)
 ```
 
 数据示例
-
-China_pmi_yearly_df.name:
-
-```
-pmi
-```
-
-China_pmi_yearly_df:
 
 ```
 2005-02-01    54.7
@@ -885,18 +822,9 @@ import testforPPshare as tp
 
 China_cx_pmi_yearly_df = tp.China_cx_pmi_yearly()
 print(China_cx_pmi_yearly_df)
-print(China_cx_pmi_yearly_df.name)
 ```
 
 数据示例
-
-China_cx_pmi_yearly_df.name:
-
-```
-cx_pmi
-```
-
-China_cx_pmi_yearly_df:
 
 ```
 2012-01-20    48.8
@@ -940,18 +868,9 @@ import testforPPshare as tp
 
 China_cx_services_pmi_yearly_df = tp.China_cx_services_pmi_yearly()
 print(China_cx_services_pmi_yearly_df)
-print(China_cx_services_pmi_yearly_df.name)
 ```
 
 数据示例
-
-China_cx_services_pmi_yearly_df.name:
-
-```
-cx_services_pmi
-```
-
-China_cx_services_pmi_yearly_df:
 
 ```
 2012-04-05    53.3
@@ -995,18 +914,9 @@ import testforPPshare as tp
 
 China_non_man_pmi_df = tp.China_non_man_pmi()
 print(China_non_man_pmi_df)
-print(China_non_man_pmi_df.name)
 ```
 
 数据示例
-
-China_non_man_pmi_df.name:
-
-```
-cx_services_pmi
-```
-
-China_non_man_pmi_df:
 
 ```
 2007-02-01    60.4
@@ -1052,18 +962,9 @@ import testforPPshare as tp
 
 China_fx_reserves_yearly_df = tp.China_fx_reserves_yearly()
 print(China_fx_reserves_yearly_df)
-print(China_fx_reserves_yearly_df.name)
 ```
 
 数据示例
-
-China_fx_reserves_yearly_df.name:
-
-```
-fx_reserves
-```
-
-China_fx_reserves_yearly_df:
 
 ```
 2014-01-15    39500
@@ -1107,18 +1008,9 @@ import testforPPshare as tp
 
 China_M2_yearly_df = tp.China_M2_yearly()
 print(China_M2_yearly_df)
-print(China_M2_yearly_df.name)
 ```
 
 数据示例
-
-China_M2_yearly_df.name:
-
-```
-M2
-```
-
-China_M2_yearly_df:
 
 ```
 1998-02-01    17.4
